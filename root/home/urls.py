@@ -2,7 +2,7 @@ from django.urls import path
 from .views import index
 
 
-urlpattetns = [
+urlpatterns = [
     path('', index)
 
 ]
